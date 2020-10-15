@@ -149,7 +149,7 @@ pacman -S --noconfirm grub efibootmgr
 grub-install --target=x86_64-efi --efi-directory=/boot
 grub-mkconfig -o /boot/grub/grub.cfg
 
-echo -e "\n * Set password for root ...\n"
+echo -e "\n * Set password for root Don't forget to change this!!!...\n"
 echo -e "root\nroot" | passwd
 
 # Exit this part of the script
